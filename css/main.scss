@@ -1,3 +1,175 @@
-.heroPic {
-  background-image: url("");
+body {
+  width:100%;
+}
+
+.scroll-nav {
+background-color: #31A5AD;
+}
+.nav-button {
+  text-align: center;
+  margin: -.5%;
+}
+
+a {
+
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin: 2% auto;
+  color: black;
+}
+li {
+  padding-right: 100px;
+  text-align: center;
+  color:black;
+  font-size: 30px;
+  font-family: serif;
+}
+.name {
+  text-align: center;
+  font-size: 55px;
+  color: #31A5AD;
+  -webkit-text-stroke: 1px black;
+   color: #31A5AD;
+   text-shadow:
+       -2px 4px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 45px;
+  color: #31A5AD;
+  -webkit-text-stroke: 1px black;
+   color: #31A5AD;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    margin-top: 3%;
+}
+
+.hank {
+  text-align: center;
+  font-size: 25px;
+  color: #31A5AD;
+  -webkit-text-stroke: 1px black;
+   color: #31A5AD;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  margin-bottom: 3%;
+}
+
+.main-pic {
+  width: 158px;
+  margin-left: 44%;
+  border-radius: 50%;
+}
+.hero-pic {
+  height: 500px;
+}
+.scroll-head {
+  background-image: url(../lighthouse-bw.jpg);
+  background-size: cover;
+  background-position-x: 0px;
+  background-position-y: -336px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 6%;
+}
+
+.secone {
+  display: inline-block;
+  height:500px;
+  width:28%;
+  margin-left: 5%;
+}
+
+.sectwo {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 10%;
+  width:28%
+}
+
+.skills {
+  font-size: 35px;
+  color: #31A5AD;
+}
+
+.secthree {
+  margin-left: -5%;
+  display: inline-block;
+  width:24%;
+}
+.second-pic {
+  border-radius: 100%;
+  width:200px;
+}
+
+.knowme {
+  margin-left: 10%;
+  text-align:left;
+  font-size: 35px;
+  color: #31A5AD;
+}
+
+#resume {
+  height:300px;
+  text-align: center;
+}
+
+#portfolio {
+  height:300px;
+  text-align: center;
+}
+
+#footer{
+  background-color: #31A5AD;
+  height: 300px;
+}
+
+.callme {
+  padding-top: 3%;
+  text-align: center;
+  margin-bottom:2%;
+}
+
+h4 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.mail {
+
+  margin-top: -2%;
+}
+
+.github {
+  margin-top: -5%;
+}
+
+.linked {
+  margin-top: -4%;
+}
+
+i {
+  color:black;
+}
+
+.footing {
+  display: inline-block;
 }
