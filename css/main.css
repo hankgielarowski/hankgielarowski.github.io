@@ -344,3 +344,18 @@ i {
 
 .footing {
   display: inline-block; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-me-section {
+    padding-top: 7%;
+    vertical-align: top;
+    text-align: center; }
+  .sectwo {
+    display: inline-block;
+    margin-left: -3%;
+    margin-right: 10%;
+    width: 28%; }
+  .secthree {
+    margin-left: -1%;
+    display: inline-block;
+    width: 24%; } }
