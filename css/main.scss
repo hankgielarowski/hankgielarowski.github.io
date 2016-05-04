@@ -415,6 +415,10 @@ h4 {
 h2 {
   text-align: center;
 }
+.phone{
+  text-align: center;
+  font-size: 25px;
+}
 
 .mail {
 
@@ -437,5 +441,4 @@ i {
   display: inline-block;
 }
 
-@import 'mobile';
 @import 'tablet';
