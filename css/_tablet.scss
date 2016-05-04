@@ -1,9 +1,17 @@
 @media (min-width:768px) and (max-width:1024px) {
 
-  .about-me-section {
-      padding-top: 7%;
-      vertical-align: top;
+  .nav-button li {
+      text-decoration: none;
+      font-family: Copperplate,fantasy;
+      padding-right: 100px;
       text-align: center;
+      color: #000;
+      font-size: 50px;
+  }
+  .about-me-section {
+  padding-top: 19%;
+  vertical-align: top;
+  text-align: center;
 }
 
 .sectwo {
@@ -16,6 +24,47 @@
     margin-left: -1%;
     display: inline-block;
     width: 24%;
+}
+.scroll-head {
+    padding-top: 6%;
+    background-image: url(../lighthouse-bw.jpg);
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -123px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#resume {
+    padding-top: 8%;
+    vertical-align: top;
+    text-align: center;
+    color: #31A5AD;
+    display: inline-block;
+    width: 100%;
+}
+#portfolio {
+    padding-top: 8%;
+    text-align: center;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 100px;
+}
+a {
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 2% auto;
+    color: #000;
+}
+.phone {
+    text-align: center;
+    font-size: 50px;
 }
 
 
